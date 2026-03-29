@@ -16,6 +16,42 @@ In particular, this repository does **not** contain any extra technical write-up
 
 > **Anonymity and Links:** Your responses to reviewers should not contain or link to any identifying information that may violate the double-blind reviewing policy. While links are allowed, reviewers are not required to follow them, and links may only be used for figures (including tables) and captions that describe the figure (no additional text).
 
+
+## Supplementary Figures for the Rebuttal
+
+### Figure S1. ProcGen result (2 seeds)
+
+![ProcGen 2 seeds](./ProcGen result (2seed).png)
+
+*Caption:* ProcGen evaluation with **2 seeds** on 16 tasks at 50 million steps. FlowMAP remains competitive with strong baselines and is close to Dreamer under this low-seed setting.
+
+---
+
+### Figure S2. ProcGen result (5 seeds)
+
+![ProcGen 5 seeds](./ProcGen result (5seed).png)
+
+*Caption:* ProcGen evaluation with **5 seeds** on 16 tasks at 50 million steps. This figure provides the higher-confidence comparison requested in the review. FlowMAP remains competitive with Dreamer and stronger than the other RL baselines.
+
+---
+
+### Figure S3. Sensitivity analysis for the quantile filtering ratio $\alpha$
+
+![Sensitivity alpha](./Sensitivity experiment of parameter alpha.png)
+
+*Caption:* Minecraft episodic return under different values of the quantile filtering ratio $\alpha$. Performance is strongest in the small-to-moderate range, with the best result observed near $\alpha=0.005$. The trend suggests that FlowMAP is not overly brittle to $\alpha$ within a reasonable operating region, while very large filtering ratios degrade performance.
+
+---
+
+### Figure S4. Sensitivity analysis for the temperature parameter $\beta$
+
+![Sensitivity beta](./Sensitivity experiment of parameter belta.png)
+
+*Caption:* Minecraft episodic return under different values of the temperature parameter $\beta$. Performance is strongest around $\beta=1$, while both overly small and overly large values reduce return. This supports the claim that FlowMAP has a stable intermediate operating region for value shaping.
+
+---
+
+
 ## Supplementary Tables
 
 ### Table S1. Atari 100k ablation results
@@ -80,3 +116,5 @@ In particular, this repository does **not** contain any extra technical write-up
 | Driver Version | 535.288.01 |
 | Per-Run GPU Usage | Single GPU |
 | Total System RAM | 528 GB |
+
+
