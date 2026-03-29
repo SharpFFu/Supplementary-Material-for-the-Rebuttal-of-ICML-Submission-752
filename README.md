@@ -90,7 +90,7 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ### Table S3. Computational-cost information
 
-*Caption:* Benchmark-level computational-cost information for the supplementary experiments. Entries are reported as **FlowMAP vs DreamerV3** when the two differ; a single value indicates that the two settings are the same.
+*Caption:* Benchmark-level computational-cost information for the supplementary experiments. Entries are reported as **FlowMAP vs DreamerV3** when the two differ; **a single value indicates that the two settings are the same.**
 
 | Benchmark | Tasks | Replay Ratio | GPU Days (FlowMAP vs DreamerV3) | Model Size | Peak RAM Usage (GB) (FlowMAP vs DreamerV3) |
 |---|---:|---:|---:|---:|---:|
