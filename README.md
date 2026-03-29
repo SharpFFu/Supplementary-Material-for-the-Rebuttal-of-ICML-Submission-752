@@ -123,7 +123,7 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ### Table S6. Benchmark-level dynamic heterogeneity (MDHI)
 
-*Caption:* Benchmark-level dynamic heterogeneity measured in the same meta-state space used by FlowMAP. \(H_{\mathrm{ctx}}\) denotes cross-context heterogeneity, \(H_{\mathrm{temp}}\) denotes temporal non-stationarity, and \(H(\mathcal{B})\) is their normalized average.
+*Caption:* Benchmark-level dynamic heterogeneity measured in the same meta-state space used by FlowMAP. $H_{\mathrm{ctx}}$ denotes cross-context heterogeneity, $H_{\mathrm{temp}}$ denotes temporal non-stationarity, and $H(\mathcal{B})$ is their normalized average.
 
 | Benchmark | $H_{\mathrm{ctx}}$ | $H_{\mathrm{temp}}$ | $H(\mathcal{B})$ |
 |---|---:|---:|---:|
