@@ -62,13 +62,13 @@ In particular, this repository does **not** contain any extra technical write-up
 
 | Method | Mean Return | Median Return | IQM Return |
 |---|---:|---:|---:|
-| No Flow (RL only) | 101.2 [72.4, 138.5] | 49.5 [38.2, 61.4] | 62.1 [50.5, 75.8] |
-| RL + Cons only | 106.5 [75.1, 142.3] | 53.0 [42.1, 65.2] | 66.4 [52.8, 80.1] |
-| Flow w/o Value Target | 95.8 [68.1, 130.2] | 52.4 [40.1, 65.0] | 60.5 [48.2, 73.1] |
-| Pointwise Value Update | 115.3 [80.5, 155.6] | 55.2 [45.0, 68.3] | 70.4 [58.1, 85.6] |
-| VTFM w/o Consistency | 125.0 [85.1, 175.4] | 51.0 [39.5, 63.8] | 68.5 [55.0, 83.2] |
-| Frozen Flow | 118.2 [82.0, 160.1] | 60.1 [48.5, 73.2] | 76.2 [62.4, 91.0] |
-| Full FlowMAP | 127.4 [90.5, 172.6] | 65.8 [52.1, 80.4] | 85.3 [70.5, 102.1] |
+| No Flow (RL only) | 101.2 | 49.5 | 62.1|
+| RL + Cons only | 106.5 | 53.0 | 66.4 |
+| Flow w/o Value Target | 95.8 | 52.4 | 60.5 |
+| Pointwise Value Update | 115.3 | 55.2 | 70.4 |
+| VTFM w/o Consistency | 125.0  | 51.0 | 68.5|
+| Frozen Flow | 118.2 | 60.1 | 76.2  |
+| Full FlowMAP | 127.4 | 65.8 | 85.3 |
 
 ---
 
@@ -78,13 +78,13 @@ In particular, this repository does **not** contain any extra technical write-up
 
 | Method | BSuite Mean Return (95% CI) |
 |---|---:|
-| No Flow (RL only) | 54.2 [46.5, 61.8] |
-| RL + Cons only | 55.5 [47.2, 63.0] |
-| Flow w/o Value Target | 53.8 [45.1, 62.4] |
-| Pointwise Value Update | 61.3 [54.0, 68.1] |
-| VTFM w/o Consistency | 57.8 [45.2, 69.4] |
-| Frozen Flow | 65.2 [59.1, 71.5] |
-| Full FlowMAP | 69.0 [62.4, 75.8] |
+| No Flow (RL only) | 54.2 |
+| RL + Cons only | 55.5 |
+| Flow w/o Value Target | 53.8 |
+| Pointwise Value Update | 61.3 |
+| VTFM w/o Consistency | 57.8 |
+| Frozen Flow | 65.2 |
+| Full FlowMAP | 69.0 |
 
 ---
 
