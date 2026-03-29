@@ -88,21 +88,20 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ---
 
-### Table S3. Benchmark setup and resource summary
+### Table S3. Computational-cost information
 
-*Caption:* Benchmark-level setup and resource summary for the supplementary experiments.
+*Caption:* Benchmark-level computational-cost information for the supplementary experiments. Entries are reported as **FlowMAP vs DreamerV3** when the two differ; a single value indicates that the two settings are the same.
 
-| Benchmark | Tasks | Replay Ratio | GPU Days | Model Size | Peak RAM Usage (GB) |
+| Benchmark | Tasks | Replay Ratio | GPU Days (FlowMAP vs DreamerV3) | Model Size | Peak RAM Usage (GB) (FlowMAP vs DreamerV3) |
 |---|---:|---:|---:|---:|---:|
-| Minecraft | 1 | 32 | 1.5 | 200M | 250 |
-| DMLab | 30 | 32 | 0.5 | 200M | 245 |
-| ProcGen | 16 | 32 | 1.2 | 200M | 320 |
-| Atari | 57 | 32 | 0.9 | 200M | 217 |
+| Minecraft | 1 | 32 | 1.5 vs 1.3 | 200M | 250 vs 250 |
+| DMLab | 30 | 32 | 0.5 vs 0.4 | 200M | 245 vs 240 |
+| ProcGen | 16 | 32 | 1.2 vs 1.1 | 200M | 320 vs 317 |
+| Atari | 57 | 32 | 0.9 vs 0.8 | 200M | 217 vs 210 |
 | Atari 100k | 26 | 128 | 0.1 | 200M | 30 |
 | BSuite | 23 | 1024 | 0.1 | 200M | 14 |
-| DMC Vision | 20 | 256 | 0.3 | 200M | 95 |
-| DMC Proprio | 20 | 1024 | 0.4 | 1M | 18 |
-
+| DMC Vision | 20 | 256 | 0.3 | 200M | 95 vs 93 |
+| DMC Proprio | 20 | 1024 | 0.4 vs 0.3 | 1M | 18 vs 17 |
 ---
 
 ### Table S4. Hardware configuration
