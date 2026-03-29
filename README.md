@@ -119,4 +119,15 @@ In particular, this repository does **not** contain any extra technical write-up
 | Per-Run GPU Usage | Single GPU |
 | Total System RAM | 528 GB |
 
+---
 
+### Table S6. Benchmark-level dynamic heterogeneity (MDHI)
+
+*Caption:* Benchmark-level dynamic heterogeneity measured in the same meta-state space used by FlowMAP. \(H_{\mathrm{ctx}}\) denotes cross-context heterogeneity, \(H_{\mathrm{temp}}\) denotes temporal non-stationarity, and \(H(\mathcal{B})\) is their normalized average.
+
+| Benchmark | $H_{\mathrm{ctx}}$ | $H_{\mathrm{temp}}$ | $H(\mathcal{B})$ |
+|---|---:|---:|---:|
+| ProcGen | 0.78 | 0.65 | 0.72 |
+| Minecraft | 0.77 | 0.66 | 0.71 |
+| Atari | 0.83 | 0.48 | 0.66 |
+| DMControl | 0.41 | 0.37 | 0.39 |
