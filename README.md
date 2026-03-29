@@ -29,7 +29,7 @@ In particular, this repository does **not** contain any extra technical write-up
 ### Figure S2. ProcGen result (5 seeds)
 
 <h2>ProcGen result (5 seed)</h2>
-<img src="./ProcGen%20result%20%285seed%29%20.png" alt="ProcGen result (5 seed)" width="600"
+<img src="./ProcGen%20result%20%285seed%29%20 .png" alt="ProcGen result (5 seed)" width="600"
 
 *Caption:* ProcGen evaluation with **5 seeds** on 16 tasks at 50 million steps. This figure provides the higher-confidence comparison requested in the review. FlowMAP remains competitive with Dreamer and stronger than the other RL baselines.
 
