@@ -8,7 +8,7 @@ To ensure compliance with the **ICML rebuttal policy** and the **double-blind re
 - tables,
 - and brief descriptive captions / necessary explanatory text directly associated with those figures and tables.
 
-No additional substantive text, discussion, or identifying information is included.
+***No additional substantive text, discussion, or identifying information is included.***
 
 In particular, this repository does **not** contain any extra technical write-up, extended argumentation, author-identifying content, or materials beyond what is permitted under the ICML rebuttal guidelines.
 
