@@ -28,7 +28,8 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ### Figure S2. ProcGen result (5 seeds)
 
-![ProcGen 5 seeds](./ProcGen%20result%20%285seed%29%20.png)
+<h2>ProcGen result (5 seed)</h2>
+<img src="./ProcGen%20result%20%285seed%29%20.png" alt="ProcGen result (5 seed)" width="600"
 
 *Caption:* ProcGen evaluation with **5 seeds** on 16 tasks at 50 million steps. This figure provides the higher-confidence comparison requested in the review. FlowMAP remains competitive with Dreamer and stronger than the other RL baselines.
 
@@ -36,7 +37,8 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ### Figure S3. Sensitivity analysis for the quantile filtering ratio $\alpha$
 
-![Sensitivity alpha](./Sensitivity%20experiment%20of%20parameter%20alpha)
+<h2>Sensitivity experiment of parameter alpha</h2>
+<img src="./Sensitivity%20experiment%20of%20parameter%20alpha.png" alt="Sensitivity experiment of parameter alpha" width="600">
 
 *Caption:* Minecraft episodic return under different values of the quantile filtering ratio $\alpha$. Performance is strongest in the small-to-moderate range, with the best result observed near $\alpha=0.005$. The trend suggests that FlowMAP is not overly brittle to $\alpha$ within a reasonable operating region, while very large filtering ratios degrade performance.
 
@@ -44,7 +46,8 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ### Figure S4. Sensitivity analysis for the temperature parameter $\beta$
 
-![Sensitivity beta](./Sensitivity%20experiment%20of%20parameter%20belta.png)
+<h2>Sensitivity experiment of parameter belta</h2>
+<img src="./Sensitivity%20experiment%20of%20parameter%20belta.png" alt="Sensitivity experiment of parameter belta" width="600">
 
 *Caption:* Minecraft episodic return under different values of the temperature parameter $\beta$. Performance is strongest around $\beta=1$, while both overly small and overly large values reduce return. This supports the claim that FlowMAP has a stable intermediate operating region for value shaping.
 
