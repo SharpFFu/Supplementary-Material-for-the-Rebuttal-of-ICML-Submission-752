@@ -21,7 +21,7 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ### Figure S1. ProcGen result (2 seeds)
 
-![ProcGen 2 seeds](ProcGen result (2seed).png)
+![ProcGen 2 seeds](/ProcGen%20result%20%282seed%29.png)
 
 *Caption:* ProcGen evaluation with **2 seeds** on 16 tasks at 50 million steps. FlowMAP remains competitive with strong baselines and is close to Dreamer under this low-seed setting.
 
