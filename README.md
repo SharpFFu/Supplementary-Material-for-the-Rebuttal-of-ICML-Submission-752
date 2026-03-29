@@ -135,6 +135,7 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ### Figure S5. Practical FlowMAP implementation
 
-![Practical FlowMAP implementation](./Algorithm.png)
+<h2>Practical FlowMAP implementation</h2>
+<img src="./Algorithm.png" alt="Practical FlowMAP implementation" width="400">
 
 *Caption:* Expanded operational version of Algorithm 1, showing the practical implementation of meta-state construction, endpoint matching, consistency alignment, and matching cost.
